@@ -2,29 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4902d292-99b3-4c70-b698-7716dd307ab0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c815624d951b4219a2e4a22a950b6ea3883d03dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/Main.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/collections/exerciseCollections.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/collections/lists.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/collections/maps.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/collections/ranges.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/dirs.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/dummy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/files.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/io.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/threads.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/closures/closures.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/closures/scopes.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/WeekDays.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/WeekDays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/dirs.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/dirs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/exerciseCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/exerciseCollections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/files.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/files.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/io.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/io.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/lists.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/lists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/maps.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/maps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/ranges.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/ranges.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/threads.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/threads.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,6 +29,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -46,43 +55,29 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.650289">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/groovy/collections/exerciseCollections.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="719">
-                  <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/groovy/collections/ranges.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="651">
-                  <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/groovy/collections/maps.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/closures/closures.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="213" selection-start-line="213" selection-end-line="213" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/closures/scopes.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,12 +94,15 @@
         <option value="$PROJECT_DIR$/src/main/groovy/collections/maps.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/collections/ranges.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/collections/exerciseCollections.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/closures/closures.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/closures/scopes.groovy" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="y" value="27" />
-    <option name="width" value="1173" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1332" />
     <option name="height" value="1413" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -144,6 +142,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="closures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.groovy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.groovy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
               <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -156,6 +162,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -178,7 +185,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Groovy.exerciseCollections">
+  <component name="RunManager" selected="Groovy.scopes">
+    <configuration name="closures" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="com.groovy.main" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/closures/closures.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/closures" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="exerciseCollections" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="com.groovy.main" />
       <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/collections/exerciseCollections.groovy" />
@@ -212,23 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ranges" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="scopes" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="com.groovy.main" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/collections/ranges.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/closures/scopes.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/collections" />
-      <setting name="debug" value="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="threads" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="com.groovy.main" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/threads.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/closures" />
       <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.scopes" />
+        <item itemvalue="Groovy.closures" />
         <item itemvalue="Groovy.exerciseCollections" />
         <item itemvalue="Groovy.maps" />
         <item itemvalue="Groovy.lists" />
-        <item itemvalue="Groovy.ranges" />
-        <item itemvalue="Groovy.threads" />
       </list>
     </recent_temporary>
   </component>
@@ -256,25 +263,33 @@
       <updated>1582366131565</updated>
       <workItem from="1582366134270" duration="285000" />
       <workItem from="1582366683538" duration="611000" />
-      <workItem from="1582371065065" duration="9947000" />
+      <workItem from="1582371065065" duration="18974000" />
     </task>
+    <task id="LOCAL-00001" summary="secion end">
+      <created>1582390033326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582390033326</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10843000" />
+    <option name="totallyTimeSpent" value="19870000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1173" height="1413" extended-state="4" />
+    <frame x="15" y="30" width="1332" height="1413" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.078970715" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2332815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24623911" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24623911" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,9 +298,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.14568488" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="13" weight="0.32964426" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.3293745" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,11 +308,15 @@
       <window_info anchor="right" id="Gradle" order="4" />
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3295107" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="secion end" />
+    <option name="LAST_COMMIT_MESSAGE" value="secion end" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -351,10 +370,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/collections/lists.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/collections/ranges.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="75" column="54" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+        <state relative-caret-position="651">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -365,17 +384,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/collections/ranges.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/collections/exerciseCollections.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="505">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/collections/exerciseCollections.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/collections/lists.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="1575">
+          <caret line="75" column="54" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/closures/closures.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/closures/scopes.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
