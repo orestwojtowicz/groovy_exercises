@@ -80,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/databases/h2Database.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+            <state relative-caret-position="210">
+              <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -140,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="15" />
     <option name="y" value="30" />
     <option name="width" value="1200" />
@@ -298,7 +298,7 @@
       <workItem from="1582366683538" duration="611000" />
       <workItem from="1582371065065" duration="19071000" />
       <workItem from="1582442388832" duration="15084000" />
-      <workItem from="1582472973210" duration="5186000" />
+      <workItem from="1582472973210" duration="5880000" />
     </task>
     <task id="LOCAL-00001" summary="secion end">
       <created>1582390033326</created>
@@ -311,11 +311,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40237000" />
+    <option name="totallyTimeSpent" value="40931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="30" width="1200" height="1413" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26169845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -324,7 +323,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29216152" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29216152" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3016627" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,7 +332,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38400632" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.38321456" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="13" weight="0.28028503" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -618,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/databases/h2Database.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>

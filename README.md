@@ -1,4 +1,3 @@
-# groovy_exercises
 
 Exercises from udemy Groovy Course
 
