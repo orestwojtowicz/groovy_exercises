@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4902d292-99b3-4c70-b698-7716dd307ab0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/closures/closures.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/closures/scopes.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/beans/GroovyBean.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/beans/beans.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/builders/ObjectGraphsBuilder.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/builders/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/builders/books.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/builders/builders.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/builders/html.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/builders/jsonBuilder.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/control_structures/conditional.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/control_structures/control.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/databases/file.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/databases/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/databases/h2Database.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/exceptions/exceptions.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/looping/looping.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/runtime_meta_programming/MetaProgramming.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/traits/traits.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/ScopeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/ScopeDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/WeekDays.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/WeekDays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/closures.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/closures.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/dirs.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/dirs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/exerciseCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/exerciseCollections.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/files.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/files.class" afterDir="false" />
@@ -19,7 +38,9 @@
       <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/lists.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/lists.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/maps.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/maps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/ranges.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/ranges.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/scopes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/scopes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/threads.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/threads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,24 +77,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/closures/closures.groovy">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/databases/h2Database.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="213" selection-start-line="213" selection-end-line="213" />
+            <state relative-caret-position="546">
+              <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/closures/scopes.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/databases/file.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
         </entry>
       </file>
@@ -96,13 +120,30 @@
         <option value="$PROJECT_DIR$/src/main/groovy/collections/exerciseCollections.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/closures/closures.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/closures/scopes.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/control_sctruscutres/control.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/control_structures/control.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/control_structures/conditional.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/looping/looping.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/exceptions/exceptions.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/traits/traits.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/beans/GroovyBean.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/beans/beans.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/runtime_meta_programming/MetaProgramming.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/builders/builders.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/builders/html.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/builders/about.html" />
+        <option value="$PROJECT_DIR$/src/main/groovy/builders/jsonBuilder.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/builders/ObjectGraphsBuilder.groovy" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/groovy/databases/h2Database.groovy" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="15" />
     <option name="y" value="30" />
-    <option name="width" value="1332" />
+    <option name="width" value="1200" />
     <option name="height" value="1413" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -111,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,22 +184,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="closures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.groovy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.groovy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,57 +218,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Groovy.scopes">
-    <configuration name="closures" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+  <component name="RunManager" selected="Groovy.h2Database">
+    <configuration name="ObjectGraphsBuilder" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="com.groovy.main" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/closures/closures.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/builders/ObjectGraphsBuilder.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/closures" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/builders" />
       <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exerciseCollections" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="builders" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="com.groovy.main" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/collections/exerciseCollections.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/builders/builders.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/collections" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/builders" />
       <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lists" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="h2Database" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="com.groovy.main" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/collections/lists.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/databases/h2Database.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/collections" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/databases" />
       <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maps" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="html" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="com.groovy.main" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/collections/maps.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/builders/html.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/collections" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/builders" />
       <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scopes" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="jsonBuilder" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="com.groovy.main" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/closures/scopes.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/builders/jsonBuilder.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/closures" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/builders" />
       <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -243,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Groovy.scopes" />
-        <item itemvalue="Groovy.closures" />
-        <item itemvalue="Groovy.exerciseCollections" />
-        <item itemvalue="Groovy.maps" />
-        <item itemvalue="Groovy.lists" />
+        <item itemvalue="Groovy.h2Database" />
+        <item itemvalue="Groovy.ObjectGraphsBuilder" />
+        <item itemvalue="Groovy.html" />
+        <item itemvalue="Groovy.jsonBuilder" />
+        <item itemvalue="Groovy.builders" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +296,9 @@
       <updated>1582366131565</updated>
       <workItem from="1582366134270" duration="285000" />
       <workItem from="1582366683538" duration="611000" />
-      <workItem from="1582371065065" duration="18974000" />
+      <workItem from="1582371065065" duration="19071000" />
+      <workItem from="1582442388832" duration="15084000" />
+      <workItem from="1582472973210" duration="5186000" />
     </task>
     <task id="LOCAL-00001" summary="secion end">
       <created>1582390033326</created>
@@ -276,21 +311,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19870000" />
+    <option name="totallyTimeSpent" value="40237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="30" width="1332" height="1413" extended-state="0" />
+    <frame x="15" y="30" width="1200" height="1413" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2332815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26169845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24623911" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29216152" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3016627" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -298,9 +333,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.14568488" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38400632" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="13" weight="0.3293745" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.28028503" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -310,6 +345,35 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.3295107" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28180212" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29612035" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3016627" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="SonarLint" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38400632" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.28028503" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3295107" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -319,46 +383,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="secion end" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/dummy.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/Main.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/io.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/files.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/dirs.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/threads.groovy">
       <provider selected="true" editor-type-id="text-editor">
@@ -398,6 +424,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/closures/scopes.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/closures/closures.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -408,10 +441,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/closures/scopes.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/control_structures/control.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        <state relative-caret-position="545">
+          <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/control_structures/conditional.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/looping/looping.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/exceptions/exceptions.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/traits/traits.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/beans/beans.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/beans/GroovyBean.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/runtime_meta_programming/MetaProgramming.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/builders/.attach_pid11399" />
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/builders/builders.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/builders/books.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/builders/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/builders/jsonBuilder.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/builders/html.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/builders/ObjectGraphsBuilder.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/dirs.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/io.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/Main.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/files.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/databases/file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/databases/file.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/databases/h2Database.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
